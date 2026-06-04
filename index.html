@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo social-icons">
+            <img src="assets/svg/bluesky.svg" height="30px"/>
+            <p>Zehra Sude<br/> Civaroğlu</p>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
+          <li>
+            <a href="#certifications">Certifications</a>
+          </li>
+          <li>
+            <a href="#contact">Get In Touch</a>
+          </li>
+        </ul>
+        <button class="menu-btn" id="menuBtn">
+          <img src="assets/svg/list.svg" height="30px" />
+        </button>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle Theme">
+          <span class="theme-slider">
+            <img id="themeIcon" src="assets/svg/sun-fill.svg" alt="Theme">
+          </span>
+        </button>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>Hello, I'm <span>Zehra Sude</span></h1>
+      <p>Software Engineering Student & Full-Stack Developer</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+    </section>
+    <section id="about">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>Final-year Software Engineering student with full-stack experience using React and Node.js.</br>Experienced in building and integrating web applications with RESTful APIs and UI/UX implementation.</br>Contributed to enterprise-level projects during internship experience.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="card">
+                <h3>HTML</h3>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="card">
+                <h3>React</h3>
+            </div>
+            <div class="card">
+                <h3>Bootstrap</h3>
+            </div>
+            <div class="card">
+                <h3>Tailwind CSS</h3>
+            </div>
+            <div class="card">
+                <h3>Git</h3>
+            </div>
+            <div class="card">
+                <h3>GitHub</h3>
+            </div>
+            <div class="card">
+                <h3>SQL</h3>
+            </div>
+            <div class="card">
+                <h3>REST API</h3>
+            </div>
+        </div>
+    </section> 
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="card">
+          <h3>Skill-Match</h3>
+          <ul>
+            <li>
+              Developed user authentication, registration, and profile page
+              interfaces.
+            </li>
+            <li>
+              Built responsive UI ensuring full compatibility across mobile and
+              desktop devices.
+            </li>
+            <li>
+              Created dynamic components for job listings and form handling
+              using React.
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>E-Commerce Website</h3>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Praesent eget enim quis felis rutrum pharetra vel in massa.</li>
+            <li>Suspendisse eget mauris in nunc eleifend consectetur.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Nail-Studio</h3>
+          <ul>
+            <li>
+              Currently developing a cross-platform mobile app focused on salon
+              appointment management (React Native)
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Personal Finance Management (PFM) Dashboard</h3>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Praesent eget enim quis felis rutrum pharetra vel in massa.</li>
+            <li>Suspendisse eget mauris in nunc eleifend consectetur.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-grid">
+            <div class="card experience-card">
+                <h3>Software Engineering Intern</h3>
+                <h4>Uyumsoft Bilgi Sistemleri ve Teknolojileri A.Ş</h4>
+                <p class="date">İstanbul, Türkiye | July-August 2025</p>
+                <ul>
+                    <li>Contributed to full-stack development in a React and Node.js enterprise project. </li>
+                    <li>Developed RESTful API integrations and tested endpoints using Postman. </li>
+                    <li>Built reusable and responsive UI components with React and Bootstrap. </li>
+                </ul>
+            </div>
+      </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-grid">
+            <div class="card">
+                <h3>Doğuş University</h3>
+                <p>Bachelor’s Degree in Software Engineering</p>
+            </div>
+            <div class="card">
+               <h3>Anadolu University</h3>
+                <p>Bachelor’s Degree in Business Administration</p>
+            </div>
+        </div>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications-grid">
+            <div class="card">
+              <a href="./assets/certifications-img/Artificial-Intelligence-Certifications.png">
+                <h3>ARTIFICIAL INTELLIGENCE COURSE CERTIFICATIONS</h3>
+                <p class="date"> Boğaziçi Enstitüsü (2026)</p>
+                <p>"Proud to have completed my Artificial Intelligence certification! During the program, I extensively used Python to develop and work with AI models. Excited to take this knowledge forward into practical applications."</p>
+              </a>
+            </div>
+            <div class="card">
+               <h3>FULL-STACK WEB DEVELOPMENT BOOTCAMP</h3>
+                <p class="date">Udemy(2026)</p>
+                <p>"Certified Full-Stack Web Developer with hands-on experience in building seamless, end-to-end web solutions. Equipped with a strong foundation in both client-side UI/UX implementation and server-side logic development, proven through practical course projects."</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <header class="contact-header">
+          <h2>Get In Touch</h2>
+        </header>
+        <div class="contact-content">
+          <div class="connect-section">
+                <h3>Connect</h3>
+                <div class="card">
+                    <a href="mailto:sudecivaroglu@gmail.com" class="mail-link social-icons">
+                      <img src="assets/svg/envelope.svg" class="contact-icon" alt="Email"/> 
+                    </a>
+                    <div class="card-text">
+                        <h4>E-posta</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/SudeCivaroglu" class="social-icons">
+                      <img src="assets/svg/github.svg" class="contact-icon" alt="GitHub"/>
+                    </a>
+                    <div class="card-text">
+                        <h4>GitHub</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="https://www.linkedin.com/in/sude-civaroğlu-99ab69385/" class="social-icons">
+                      <img src="assets/svg/linkedin.svg" class="contact-icon" alt="LinkedIn"/>
+                    </a>
+                    <div class="card-text">
+                        <h4>LinkedIn</h4>
+                    </div>
+                </div>
+          </div>      
+          <div class="form-section">
+                <h3>Send Message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send</button>
+                </form>
+          </div>
+        </div>    
+      </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-container">
+        <p class="copyright-text">&copy; 2026 Zehra Sude Civaroğlu</p>
+        </div>
+    </footer>
+  </body>
+</html>
